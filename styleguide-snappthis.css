@@ -5,35 +5,35 @@
 /* BARIOL REGULAR */
 @font-face {
     font-family: 'Bariol';
-    src: url('./fonts/Bariol_Regular.woff');
+    src: url('./fonts/Bariol_Regular.otf');
     font-weight: 400;
 }
 
 /* BARIOL REGULAR ITALIC */
 @font-face {
     font-family: 'Bariol';
-    src: url('./fonts/Bariol_Regular_Italic.woff');
+    src: url('./fonts/Bariol_Regular_Italic.otf');
     font-style: italic;
 }
 
 /* BARIOL BOLD */
 @font-face {
     font-family: 'Bariol';
-    src: url('./fonts/Bariol_Bold.woff');
+    src: url('./fonts/Bariol_Bold.otf');
     font-weight: 700;
 }
 
 /* BARIOL LIGHT */
 @font-face {
     font-family: 'Bariol';
-    src: url('./fonts/Bariol_Light.woff');
+    src: url('./fonts/Bariol_Light.otf');
     font-weight: 300;
 }
 
 /* BARIOL THIN */
 @font-face {
     font-family: 'Bariol';
-    src: url('./fonts/Bariol_Thin.woff');
+    src: url('./fonts/Bariol_Thin.otf');
     font-weight: 200;
 }
 
@@ -51,51 +51,39 @@
         --primary-text-color: #FFFFFF;
         --secondary-text-color: #90A1AA;
 
-        /* TYPOGRAPHY */
-        --font-family: 'Bariol', sans-serif;
-
         /* FONT-SIZE */
         --first-line: 2em;
         --second-line: 1.6em;
         --description: 1.8em;
 
-        --letter-spacing: 1px;
-        --line-height-list: 1.6;
-        --line-height-text: 1.3;
+        --font-family: 'Bariol', sans-serif;
 
-        /* BORDER */
+        --letter-spacing: 1px;
+        --line-height-list: 1.4;
+        --line-height-text: 1.;
+
+
+        /* BUTTON */
         --border-none: none;
         --border-radius-button: 50px;
         --border-radius-photo: 7px;
 
         /* BUTTON SIZE MOET NOG BESPROKEN WORDEN*/
-        --padding-button: ;
-        --button-size: ;
+
+
+        --letter-spacing: 1px;
+
+
+
+paddingbutton
+
+
+
     }
 
-.primary-color {
-  background-color: var(--primary-color);
-}
+    /* Typografie */
 
-.primary-action {
-  background-color: var(--primary-action);
-}
 
-.secondary-action {
-  background-color: var(--secondary-action);
-}
+    /* Formulier elementen */
 
-.white {
-  background-color: var(--white);
-  border: 1px solid #000000; /* zodat je de witte kleur nog kunt zien */
-}
-
-.grey-background {
-  background-color: var(--grey-background);
-}
-
-}
-
-body {
-    font-family: var(--font-family);
 }
