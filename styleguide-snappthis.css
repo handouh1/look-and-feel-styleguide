@@ -72,6 +72,28 @@
         --padding-button: ;
         --button-size: ;
     }
+
+.primary-color {
+  background-color: var(--primary-color);
+}
+
+.primary-action {
+  background-color: var(--primary-action);
+}
+
+.secondary-action {
+  background-color: var(--secondary-action);
+}
+
+.white {
+  background-color: var(--white);
+  border: 1px solid #000000; /* zodat je de witte kleur nog kunt zien */
+}
+
+.grey-background {
+  background-color: var(--grey-background);
+}
+
 }
 
 body {
