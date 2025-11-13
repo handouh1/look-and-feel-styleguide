@@ -5,35 +5,35 @@
 /* BARIOL REGULAR */
 @font-face {
     font-family: 'Bariol';
-    src: url('./fonts/Bariol_Regular.otf');
+    src: url('./fonts/Bariol_Regular.woff');
     font-weight: 400;
 }
 
 /* BARIOL REGULAR ITALIC */
 @font-face {
     font-family: 'Bariol';
-    src: url('./fonts/Bariol_Regular_Italic.otf');
+    src: url('./fonts/Bariol_Regular_Italic.woff');
     font-style: italic;
 }
 
 /* BARIOL BOLD */
 @font-face {
     font-family: 'Bariol';
-    src: url('./fonts/Bariol_Bold.otf');
+    src: url('./fonts/Bariol_Bold.woff');
     font-weight: 700;
 }
 
 /* BARIOL LIGHT */
 @font-face {
     font-family: 'Bariol';
-    src: url('./fonts/Bariol_Light.otf');
+    src: url('./fonts/Bariol_Light.woff');
     font-weight: 300;
 }
 
 /* BARIOL THIN */
 @font-face {
     font-family: 'Bariol';
-    src: url('./fonts/Bariol_Thin.otf');
+    src: url('./fonts/Bariol_Thin.woff');
     font-weight: 200;
 }
 
@@ -98,5 +98,4 @@
 
 body {
     font-family: var(--font-family);
-
 }
