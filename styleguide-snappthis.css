@@ -73,9 +73,9 @@
         --button-size: ;
     }
 
-  *{
-    font-family: var(--font-family);
-   }
+    * {
+        font-family: var(--font-family);
+      }
  
   .primary-color {
   background-color: var(--primary-color);
@@ -94,9 +94,29 @@
   border: 1px solid #000000; /* zodat je de witte kleur nog kunt zien */
   }
  
-  .grey-background {
+ .grey-background {
   background-color: var(--grey-background);
   }
+
+/* 4. Hover / Focus / Active voorbeelden */
+button {
+  background-color: var(--primary-action);
+  border-radius: var(--primary-radius-button);
+  cursor: pointer;
+  /* padding samen bepalen? */
+}
+
+button:hover {
+  background-color: var(--secondary-action);
+}
+
+button:focus {
+/*  samen bepalen, belangrijk voor keyboard gebruikers*/
+}
+
+button:active{
+/* animatie kiezen? */
+}
  
 }
  
